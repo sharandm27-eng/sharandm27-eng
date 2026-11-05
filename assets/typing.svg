@@ -1,0 +1,110 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="120" viewBox="0 0 800 120"
+     shape-rendering="crispEdges">
+
+  <rect width="800" height="120" fill="#0d0221"/>
+
+  <!-- Arcade dialogue panel -->
+  <rect x="8" y="8" width="784" height="104" fill="#ff2e97"/>
+  <rect x="14" y="14" width="772" height="92" fill="#00f0ff"/>
+  <rect x="20" y="20" width="760" height="80" fill="#1a0b3b"/>
+
+  <!-- Stepped corner decorations -->
+  <rect x="20" y="20" width="12" height="8" fill="#ffe600"/>
+  <rect x="20" y="20" width="8" height="12" fill="#ffe600"/>
+  <rect x="768" y="20" width="12" height="8" fill="#ffe600"/>
+  <rect x="772" y="20" width="8" height="12" fill="#ffe600"/>
+  <rect x="20" y="92" width="12" height="8" fill="#ffe600"/>
+  <rect x="20" y="88" width="8" height="12" fill="#ffe600"/>
+  <rect x="768" y="92" width="12" height="8" fill="#ffe600"/>
+  <rect x="772" y="88" width="8" height="12" fill="#ffe600"/>
+
+  <!-- Terminal heading -->
+  <text x="40" y="37"
+        font-family="Courier New, monospace"
+        font-size="11" font-weight="bold"
+        fill="#00f0ff">ARCADE SYSTEM // PLAYER TERMINAL</text>
+
+  <rect x="40" y="44" width="720" height="2" fill="#ff2e97"/>
+
+  <!-- Message 1 -->
+  <defs>
+    <clipPath id="line1">
+      <rect x="0" y="0" width="0" height="20">
+        <animate attributeName="width"
+          values="0;36;72;108;144;180;216;252;288;324;360;396;432;468;504;540;576;612;648;684;720;720;0"
+          keyTimes="0;0.025;0.05;0.075;0.10;0.125;0.15;0.175;0.20;0.225;0.25;0.275;0.30;0.325;0.35;0.375;0.40;0.425;0.45;0.475;0.50;0.85;1"
+          dur="14s" begin="0s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line2">
+      <rect x="0" y="0" width="0" height="20">
+        <animate attributeName="width"
+          values="0;36;72;108;144;180;216;252;288;324;360;396;432;468;504;540;576;612;648;684;720;720;0"
+          keyTimes="0;0.025;0.05;0.075;0.10;0.125;0.15;0.175;0.20;0.225;0.25;0.275;0.30;0.325;0.35;0.375;0.40;0.425;0.45;0.475;0.50;0.85;1"
+          dur="14s" begin="3.5s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line3">
+      <rect x="0" y="0" width="0" height="20">
+        <animate attributeName="width"
+          values="0;36;72;108;144;180;216;252;288;324;360;396;432;468;504;540;576;612;648;684;720;720;0"
+          keyTimes="0;0.025;0.05;0.075;0.10;0.125;0.15;0.175;0.20;0.225;0.25;0.275;0.30;0.325;0.35;0.375;0.40;0.425;0.45;0.475;0.50;0.85;1"
+          dur="14s" begin="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line4">
+      <rect x="0" y="0" width="0" height="20">
+        <animate attributeName="width"
+          values="0;36;72;108;144;180;216;252;288;324;360;396;432;468;504;540;576;612;648;684;720;720;0"
+          keyTimes="0;0.025;0.05;0.075;0.10;0.125;0.15;0.175;0.20;0.225;0.25;0.275;0.30;0.325;0.35;0.375;0.40;0.425;0.45;0.475;0.50;0.85;1"
+          dur="14s" begin="10.5s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Animated terminal messages -->
+  <g font-family="Courier New, monospace"
+     font-size="16" font-weight="bold">
+
+    <g clip-path="url(#line1)">
+      <text x="42" y="67" fill="#39ff14">&gt; PLAYER 1 READY...</text>
+    </g>
+
+    <g clip-path="url(#line2)">
+      <text x="42" y="67" fill="#00f0ff">&gt; CLASS: AI/ML ENGINEER</text>
+    </g>
+
+    <g clip-path="url(#line3)">
+      <text x="42" y="67" fill="#ffe600">&gt; BUILDING: LLM AGENTS &amp; TOOLS</text>
+    </g>
+
+    <g clip-path="url(#line4)">
+      <text x="42" y="67" fill="#ff2e97">&gt; MISSION: SHIP COOL STUFF</text>
+    </g>
+
+  </g>
+
+  <!-- Blinking pixel cursor -->
+  <rect x="42" y="76" width="10" height="12" fill="#39ff14">
+    <animate attributeName="opacity"
+      values="1;0;1" dur="0.65s"
+      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom status bar -->
+  <text x="42" y="96"
+        font-family="Courier New, monospace"
+        font-size="9" font-weight="bold"
+        fill="#f5f5f5">SYSTEM STATUS: ONLINE</text>
+
+  <text x="650" y="96"
+        font-family="Courier New, monospace"
+        font-size="9" font-weight="bold"
+        fill="#ffe600">LOOP: 14 SEC</text>
+
+</svg>
