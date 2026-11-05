@@ -1,0 +1,215 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="360" viewBox="0 0 800 360"
+     shape-rendering="crispEdges">
+
+  <rect width="800" height="360" fill="#0d0221"/>
+
+  <!-- Outer panel -->
+  <rect x="8" y="8" width="784" height="344" fill="#ff2e97"/>
+  <rect x="14" y="14" width="772" height="332" fill="#00f0ff"/>
+  <rect x="20" y="20" width="760" height="320" fill="#1a0b3b"/>
+
+  <!-- Header -->
+  <rect x="36" y="34" width="8" height="8" fill="#ffe600"/>
+  <rect x="44" y="34" width="8" height="8" fill="#ffe600"/>
+
+  <text x="65" y="47"
+        font-family="Courier New, monospace"
+        font-size="21" font-weight="bold"
+        fill="#ffe600">PLAYER 1 READY - SKILL LEVELS</text>
+
+  <rect x="36" y="59" width="728" height="3" fill="#ff2e97"/>
+
+  <!-- Skill 1 Python LVL 85 -->
+  <text x="40" y="91" font-family="Courier New, monospace"
+        font-size="15" font-weight="bold" fill="#f5f5f5">PYTHON</text>
+  <text x="710" y="91" font-family="Courier New, monospace"
+        font-size="14" font-weight="bold" fill="#00f0ff">LVL 85</text>
+
+  <g transform="translate(40 101)">
+    <rect width="34" height="13" fill="#39ff14"/>
+    <rect x="37" width="34" height="13" fill="#39ff14"/>
+    <rect x="74" width="34" height="13" fill="#39ff14"/>
+    <rect x="111" width="34" height="13" fill="#39ff14"/>
+    <rect x="148" width="34" height="13" fill="#39ff14"/>
+    <rect x="185" width="34" height="13" fill="#39ff14"/>
+    <rect x="222" width="34" height="13" fill="#39ff14"/>
+    <rect x="259" width="34" height="13" fill="#39ff14"/>
+    <rect x="296" width="34" height="13" fill="#39ff14"/>
+    <rect x="333" width="34" height="13" fill="#39ff14"/>
+    <rect x="370" width="34" height="13" fill="#39ff14"/>
+    <rect x="407" width="34" height="13" fill="#39ff14"/>
+    <rect x="444" width="34" height="13" fill="#39ff14"/>
+    <rect x="481" width="34" height="13" fill="#39ff14"/>
+    <rect x="518" width="34" height="13" fill="#39ff14"/>
+    <rect x="555" width="34" height="13" fill="#39ff14"/>
+    <rect x="592" width="34" height="13" fill="#39ff14"/>
+    <rect x="629" width="34" height="13" fill="#39ff14"/>
+    <rect x="666" width="34" height="13" fill="#0d0221"/>
+    <rect x="703" width="34" height="13" fill="#0d0221"/>
+
+    <animate attributeName="opacity" values="0.2;1;1"
+      keyTimes="0;0.8;1" dur="1.8s" begin="0s"
+      fill="freeze"/>
+    <rect x="629" width="34" height="13" fill="#39ff14">
+      <animate attributeName="opacity" values="1;0.2;1"
+        dur="0.7s" begin="1.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Skill 2 -->
+  <text x="40" y="137" font-family="Courier New, monospace"
+        font-size="15" font-weight="bold" fill="#f5f5f5">PYTORCH / TENSORFLOW</text>
+  <text x="710" y="137" font-family="Courier New, monospace"
+        font-size="14" font-weight="bold" fill="#00f0ff">LVL 70</text>
+
+  <g transform="translate(40 147)">
+    <rect width="34" height="13" fill="#00f0ff"/>
+    <rect x="37" width="34" height="13" fill="#00f0ff"/>
+    <rect x="74" width="34" height="13" fill="#00f0ff"/>
+    <rect x="111" width="34" height="13" fill="#00f0ff"/>
+    <rect x="148" width="34" height="13" fill="#00f0ff"/>
+    <rect x="185" width="34" height="13" fill="#00f0ff"/>
+    <rect x="222" width="34" height="13" fill="#00f0ff"/>
+    <rect x="259" width="34" height="13" fill="#00f0ff"/>
+    <rect x="296" width="34" height="13" fill="#00f0ff"/>
+    <rect x="333" width="34" height="13" fill="#00f0ff"/>
+    <rect x="370" width="34" height="13" fill="#00f0ff"/>
+    <rect x="407" width="34" height="13" fill="#00f0ff"/>
+    <rect x="444" width="34" height="13" fill="#00f0ff"/>
+    <rect x="481" width="34" height="13" fill="#00f0ff"/>
+    <rect x="518" width="34" height="13" fill="#0d0221"/>
+    <rect x="555" width="34" height="13" fill="#0d0221"/>
+    <rect x="592" width="34" height="13" fill="#0d0221"/>
+    <rect x="629" width="34" height="13" fill="#0d0221"/>
+    <rect x="666" width="34" height="13" fill="#0d0221"/>
+    <rect x="703" width="34" height="13" fill="#0d0221"/>
+
+    <animate attributeName="opacity" values="0.2;1;1"
+      keyTimes="0;0.8;1" dur="1.8s" begin="0.3s"
+      fill="freeze"/>
+    <rect x="481" width="34" height="13" fill="#00f0ff">
+      <animate attributeName="opacity" values="1;0.2;1"
+        dur="0.8s" begin="2.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Skill 3 -->
+  <text x="40" y="183" font-family="Courier New, monospace"
+        font-size="15" font-weight="bold" fill="#f5f5f5">LLMs &amp; FINE-TUNING (LoRA/QLoRA)</text>
+  <text x="710" y="183" font-family="Courier New, monospace"
+        font-size="14" font-weight="bold" fill="#00f0ff">LVL 65</text>
+
+  <g transform="translate(40 193)">
+    <rect width="34" height="13" fill="#ff2e97"/>
+    <rect x="37" width="34" height="13" fill="#ff2e97"/>
+    <rect x="74" width="34" height="13" fill="#ff2e97"/>
+    <rect x="111" width="34" height="13" fill="#ff2e97"/>
+    <rect x="148" width="34" height="13" fill="#ff2e97"/>
+    <rect x="185" width="34" height="13" fill="#ff2e97"/>
+    <rect x="222" width="34" height="13" fill="#ff2e97"/>
+    <rect x="259" width="34" height="13" fill="#ff2e97"/>
+    <rect x="296" width="34" height="13" fill="#ff2e97"/>
+    <rect x="333" width="34" height="13" fill="#ff2e97"/>
+    <rect x="370" width="34" height="13" fill="#ff2e97"/>
+    <rect x="407" width="34" height="13" fill="#ff2e97"/>
+    <rect x="444" width="34" height="13" fill="#ff2e97"/>
+    <rect x="481" width="34" height="13" fill="#0d0221"/>
+    <rect x="518" width="34" height="13" fill="#0d0221"/>
+    <rect x="555" width="34" height="13" fill="#0d0221"/>
+    <rect x="592" width="34" height="13" fill="#0d0221"/>
+    <rect x="629" width="34" height="13" fill="#0d0221"/>
+    <rect x="666" width="34" height="13" fill="#0d0221"/>
+    <rect x="703" width="34" height="13" fill="#0d0221"/>
+
+    <animate attributeName="opacity" values="0.2;1;1"
+      keyTimes="0;0.8;1" dur="1.8s" begin="0.6s"
+      fill="freeze"/>
+    <rect x="444" width="34" height="13" fill="#ff2e97">
+      <animate attributeName="opacity" values="1;0.2;1"
+        dur="0.8s" begin="2.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Skill 4 -->
+  <text x="40" y="229" font-family="Courier New, monospace"
+        font-size="15" font-weight="bold" fill="#f5f5f5">AGENTS / MCP</text>
+  <text x="710" y="229" font-family="Courier New, monospace"
+        font-size="14" font-weight="bold" fill="#00f0ff">LVL 60</text>
+
+  <g transform="translate(40 239)">
+    <rect width="34" height="13" fill="#ffe600"/>
+    <rect x="37" width="34" height="13" fill="#ffe600"/>
+    <rect x="74" width="34" height="13" fill="#ffe600"/>
+    <rect x="111" width="34" height="13" fill="#ffe600"/>
+    <rect x="148" width="34" height="13" fill="#ffe600"/>
+    <rect x="185" width="34" height="13" fill="#ffe600"/>
+    <rect x="222" width="34" height="13" fill="#ffe600"/>
+    <rect x="259" width="34" height="13" fill="#ffe600"/>
+    <rect x="296" width="34" height="13" fill="#ffe600"/>
+    <rect x="333" width="34" height="13" fill="#ffe600"/>
+    <rect x="370" width="34" height="13" fill="#ffe600"/>
+    <rect x="407" width="34" height="13" fill="#ffe600"/>
+    <rect x="444" width="34" height="13" fill="#0d0221"/>
+    <rect x="481" width="34" height="13" fill="#0d0221"/>
+    <rect x="518" width="34" height="13" fill="#0d0221"/>
+    <rect x="555" width="34" height="13" fill="#0d0221"/>
+    <rect x="592" width="34" height="13" fill="#0d0221"/>
+    <rect x="629" width="34" height="13" fill="#0d0221"/>
+    <rect x="666" width="34" height="13" fill="#0d0221"/>
+    <rect x="703" width="34" height="13" fill="#0d0221"/>
+
+    <animate attributeName="opacity" values="0.2;1;1"
+      keyTimes="0;0.8;1" dur="1.8s" begin="0.9s"
+      fill="freeze"/>
+    <rect x="407" width="34" height="13" fill="#ffe600">
+      <animate attributeName="opacity" values="1;0.2;1"
+        dur="0.9s" begin="2.7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Skill 5 -->
+  <text x="40" y="275" font-family="Courier New, monospace"
+        font-size="15" font-weight="bold" fill="#f5f5f5">FASTAPI</text>
+  <text x="710" y="275" font-family="Courier New, monospace"
+        font-size="14" font-weight="bold" fill="#00f0ff">LVL 65</text>
+
+  <g transform="translate(40 285)">
+    <rect width="34" height="13" fill="#39ff14"/>
+    <rect x="37" width="34" height="13" fill="#39ff14"/>
+    <rect x="74" width="34" height="13" fill="#39ff14"/>
+    <rect x="111" width="34" height="13" fill="#39ff14"/>
+    <rect x="148" width="34" height="13" fill="#39ff14"/>
+    <rect x="185" width="34" height="13" fill="#39ff14"/>
+    <rect x="222" width="34" height="13" fill="#39ff14"/>
+    <rect x="259" width="34" height="13" fill="#39ff14"/>
+    <rect x="296" width="34" height="13" fill="#39ff14"/>
+    <rect x="333" width="34" height="13" fill="#39ff14"/>
+    <rect x="370" width="34" height="13" fill="#39ff14"/>
+    <rect x="407" width="34" height="13" fill="#39ff14"/>
+    <rect x="444" width="34" height="13" fill="#39ff14"/>
+    <rect x="481" width="34" height="13" fill="#0d0221"/>
+    <rect x="518" width="34" height="13" fill="#0d0221"/>
+    <rect x="555" width="34" height="13" fill="#0d0221"/>
+    <rect x="592" width="34" height="13" fill="#0d0221"/>
+    <rect x="629" width="34" height="13" fill="#0d0221"/>
+    <rect x="666" width="34" height="13" fill="#0d0221"/>
+    <rect x="703" width="34" height="13" fill="#0d0221"/>
+
+    <animate attributeName="opacity" values="0.2;1;1"
+      keyTimes="0;0.8;1" dur="1.8s" begin="1.2s"
+      fill="freeze"/>
+    <rect x="444" width="34" height="13" fill="#39ff14">
+      <animate attributeName="opacity" values="1;0.2;1"
+        dur="0.8s" begin="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Footer status -->
+  <text x="40" y="325" font-family="Courier New, monospace"
+        font-size="12" font-weight="bold" fill="#00f0ff">POWER LEVEL: RISING...</text>
+  <text x="655" y="325" font-family="Courier New, monospace"
+        font-size="12" font-weight="bold" fill="#ffe600">PLAYER 1</text>
+
+</svg>
