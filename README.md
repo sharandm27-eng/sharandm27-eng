@@ -1,83 +1,76 @@
 
 <p align="center">
-  <img src="assets/header.svg" alt="Sharan - Retro Arcade AI ML Developer" width="800">
+  <img src="assets/sharan-profile-intro-final-match-reference.gif" alt="Sharan DM - Animated AI Command Center Profile" width="100%">
 </p>
 
 <p align="center">
-  <img src="assets/typing.svg" alt="Player introduction typing animation" width="800">
+  <a href="https://www.linkedin.com/in/sharan-d-m-2139563a1/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://portfolio-website-one-beta-32.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Explore-00C8FF?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
+  <a href="mailto:sharandm18@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://github.com/sharandm27-eng">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
 </p>
 
-<p align="center">
-  <img src="assets/divider-walker.svg" alt="Pixel art walking mascot divider" width="800">
-</p>
+---
 
-## 🕹️ PLAYER STATS
+## ABOUT ME
 
-| ATTRIBUTE | PLAYER DATA |
+- 🎓 CSE AIML student at Presidency University, Bengaluru.
+- 🤖 Interested in AI, Machine Learning, LLMs and AI Agents.
+- 💻 Developer exploring Flutter, web development and intelligent systems.
+- 🚀 Focused on building practical products that solve real-world problems.
+
+---
+
+## PROJECTS
+
+| Project | Description |
 |---|---|
-| 🎮 Player | Sharan |
-| 📍 Location | Bengaluru, India |
-| 🎓 College | Presidency University |
-| 🧠 Class | AI/ML Engineer |
-| ⚡ Current Quest | LLM Agents & Fine-tuning |
-| 📧 Contact | [sharandm18@gmail.com](mailto:sharandm18@gmail.com) |
-| 🐙 GitHub | [@sharandm27-eng](https://github.com/sharandm27-eng) |
-
-<p align="center">
-  <img src="assets/skills.svg" alt="Player 1 skill levels" width="800">
-</p>
-
-<p align="center">
-  <img src="assets/divider-walker.svg" alt="Pixel art walking mascot divider" width="800">
-</p>
-
-## 🏆 QUEST LOG
-
-<p align="center">
-  <img src="assets/quests.svg" alt="Three active development quests" width="800">
-</p>
-
-### 🎯 Quest 01 — MiniExpert
-- Fine-tuning small language models using LoRA and QLoRA.
-- Building task-specific AI experts.
-
-🔗 [View MiniExpert Repository](https://github.com/sharandm27-eng/REPO_MINIEXPERT)
-
-### 🎯 Quest 02 — MCP Agent
-- Building agentic AI systems using Model Context Protocol.
-- Exploring intelligent tool integration and automation.
-
-🔗 [View MCP Agent Repository](https://github.com/sharandm27-eng/REPO_MCP_AGENT)
-
-### 🎯 Quest 03 — Vyapti Kshetra
-- AI-powered agricultural marketplace connecting farmers and factories.
-- Smart India Hackathon 2026 project.
-
-🔗 [View Vyapti Kshetra Repository](https://github.com/sharandm27-eng/REPO_VYAPTI_KSHETRA)
+| 🌱 **Vyapti Kshetra** | AI-powered agricultural marketplace connecting farmers and factories. |
+| 🎮 **LearnLab Quest** | Gamified, offline-first STEM learning platform. |
+| 🏫 **Smart InCampus** | Campus management and navigation web application. |
+| ❤️ **JanArogya** | AI-powered health management system. |
 
 ---
 
-## 🐍 CONTRIBUTION SNAKE
+## TECH STACK
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sharandm27-eng/sharandm27-eng/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sharandm27-eng/sharandm27-eng/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/sharandm27-eng/sharandm27-eng/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="https://skillicons.dev/icons?i=python,c,flutter,react,nextjs,nodejs,fastapi,pytorch,docker,git&theme=dark" alt="Technology stack">
 </p>
 
 ---
 
-## 🥇 HIGH SCORE
+## CURRENT FOCUS
+
+- Fine-tuning Small Language Models using LoRA and QLoRA.
+- Building intelligent AI agents and MCP-based systems.
+- Exploring AI-powered applications and product development.
+
+---
+
+## GITHUB CONTRIBUTIONS
 
 <p align="center">
-  <!-- GitHub stats may be temporarily rate-limited by the stats service. -->
-  <img src="https://github-readme-stats.vercel.app/api?username=sharandm27-eng&show_icons=true&bg_color=0d0221&title_color=ff2e97&text_color=f5f5f5&icon_color=00f0ff&border_color=ff2e97&hide_border=false" alt="Sharan's GitHub statistics" height="165">
+  <img src="https://raw.githubusercontent.com/sharandm27-eng/sharandm27-eng/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake">
+</p>
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sharandm27-eng&layout=compact&bg_color=0d0221&title_color=ff2e97&text_color=f5f5f5&border_color=ff2e97&hide_border=false" alt="Most used programming languages" height="165">
+---
+
+## GITHUB STATISTICS
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sharandm27-eng&show_icons=true&theme=tokyonight&hide_border=true" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sharandm27-eng&layout=compact&theme=tokyonight&hide_border=true" height="165">
 </p>
 
 <p align="center">
-  <img src="assets/stars.svg" alt="Game over no continue yes pixel art footer" width="800">
+  <b>BUILDING • LEARNING • INNOVATING</b>
 </p>
